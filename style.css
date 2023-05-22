@@ -13,6 +13,8 @@ svg {
 
 circle {
   fill: #cbc9c9cb;
+  margin: 10px;
+  padding: 10px;
 }
 
 /* circle, */
@@ -21,6 +23,7 @@ circle {
   fill: rgb(13, 188, 57);
   z-index: 10;
   transition: 1s;
+  margin: 10px;
 }
 
 .st0 .pin {
@@ -41,4 +44,24 @@ circle {
   to {
     r: 15;
   }
+}
+div {
+  position: absolute;
+  top: 2rem;
+  color: white;
+  opacity: 0;
+  filter: blur(5px);
+  transition: 1.5s;
+}
+.one {
+  opacity: 0;
+}
+.two {
+  opacity: 0;
+}
+span {
+  margin: 2rem;
+  font-size: 2rem;
+  font-family: "Poppins";
+  transition: 0.5s;
 }
